@@ -18,9 +18,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = ViewController()
-        window?.backgroundColor = .systemBackground
-        window?.makeKeyAndVisible()
+        
+        let hasLaunchedBefore = UserDefaults.standard.bool(forKey: "hasLaunchedBefore")
+        
+        if !hasLaunchedBefore {
+            let firstOnboardingVC = FirstOnboardingVC()
+            window?.rootViewController = firstOnboardingVC
+            window?.makeKeyAndVisible()
+            UserDefaults.standard.set(true, forKey: "hasLaunchedBefore")
+        } else {
+            window?.rootViewController = CustomTabBarController()
+            window?.makeKeyAndVisible()
+        }
     }
     
     func sceneDidDisconnect(_ scene: UIScene) {
