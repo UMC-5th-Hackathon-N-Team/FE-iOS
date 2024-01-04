@@ -1,0 +1,6 @@
+framework module Pods_Sophie {
+  umbrella header "Pods-Sophie-umbrella.h"
+
+  export *
+  module * { export * }
+}

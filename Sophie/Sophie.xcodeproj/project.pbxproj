@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0555CEBE2B475630004D319D /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0555CEBD2B475630004D319D /* GiftViewController.swift */; };
+		0555CEC02B4757E7004D319D /* FirstOnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0555CEBF2B4757E7004D319D /* FirstOnboardingVC.swift */; };
+		0555CEC22B475B5C004D319D /* SecondOnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0555CEC12B475B5C004D319D /* SecondOnboardingVC.swift */; };
+		0555CEC42B475C46004D319D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0555CEC32B475C46004D319D /* SecondView.swift */; };
+		0555CEC62B475F89004D319D /* ProgressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0555CEC52B475F89004D319D /* ProgressionViewController.swift */; };
 		05DACC492B46C26A00FB351F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC482B46C26A00FB351F /* AppDelegate.swift */; };
 		05DACC4B2B46C26A00FB351F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC4A2B46C26A00FB351F /* SceneDelegate.swift */; };
 		05DACC4D2B46C26A00FB351F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC4C2B46C26A00FB351F /* ViewController.swift */; };
 		05DACC522B46C26C00FB351F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DACC512B46C26C00FB351F /* Assets.xcassets */; };
 		05DACC552B46C26C00FB351F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DACC532B46C26C00FB351F /* LaunchScreen.storyboard */; };
+		05DACC642B46C56600FB351F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC632B46C56600FB351F /* MainViewController.swift */; };
+		05DACC662B46C57000FB351F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC652B46C57000FB351F /* MainView.swift */; };
+		05DACC702B46CCCF00FB351F /* RoundableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC6F2B46CCCF00FB351F /* RoundableButton.swift */; };
+		05DACC782B46DCE700FB351F /* DayCounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC772B46DCE700FB351F /* DayCounterCell.swift */; };
+		05DACC7A2B46E2EC00FB351F /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC792B46E2EC00FB351F /* MainModel.swift */; };
+		05DACC7C2B46ECEF00FB351F /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC7B2B46ECEF00FB351F /* HeaderCell.swift */; };
+		05DACC7E2B46F0E600FB351F /* ProgressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC7D2B46F0E600FB351F /* ProgressCell.swift */; };
+		05DACC802B470B4100FB351F /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC7F2B470B4000FB351F /* Vibration.swift */; };
+		05DACC822B470B6A00FB351F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC812B470B6A00FB351F /* CustomTabBarController.swift */; };
+		05DACC842B470BAF00FB351F /* StickerBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC832B470BAF00FB351F /* StickerBookViewController.swift */; };
+		05DACC862B470BB500FB351F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC852B470BB500FB351F /* MyPageViewController.swift */; };
+		05DACC892B470C2500FB351F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC882B470C2500FB351F /* UIView+Extensions.swift */; };
+		05DACC8B2B470C4400FB351F /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DACC8A2B470C4400FB351F /* UIStackView+Extensions.swift */; };
+		05EF05062B4713600090095E /* WholeBloodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF05052B4713600090095E /* WholeBloodCell.swift */; };
+		05EF05082B471F5D0090095E /* IngredientBloodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF05072B471F5D0090095E /* IngredientBloodCell.swift */; };
+		05EF050A2B472BAC0090095E /* BottomButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EF05092B472BAC0090095E /* BottomButtonCell.swift */; };
+		05F611F32B473A86004B4E68 /* GuidelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F611F22B473A86004B4E68 /* GuidelineViewController.swift */; };
+		05F611F52B474EE9004B4E68 /* CertificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F611F42B474EE9004B4E68 /* CertificationViewController.swift */; };
+		2CAF584C8C946AB8B14D466A /* Pods_Sophie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBBA9AC008276B1A1EEFE13 /* Pods_Sophie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0555CEBD2B475630004D319D /* GiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
+		0555CEBF2B4757E7004D319D /* FirstOnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardingVC.swift; sourceTree = "<group>"; };
+		0555CEC12B475B5C004D319D /* SecondOnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingVC.swift; sourceTree = "<group>"; };
+		0555CEC32B475C46004D319D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		0555CEC52B475F89004D319D /* ProgressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionViewController.swift; sourceTree = "<group>"; };
 		05DACC452B46C26A00FB351F /* Sophie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sophie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DACC482B46C26A00FB351F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05DACC4A2B46C26A00FB351F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +51,27 @@
 		05DACC512B46C26C00FB351F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05DACC542B46C26C00FB351F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05DACC562B46C26C00FB351F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DACC632B46C56600FB351F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		05DACC652B46C57000FB351F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		05DACC6F2B46CCCF00FB351F /* RoundableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundableButton.swift; sourceTree = "<group>"; };
+		05DACC772B46DCE700FB351F /* DayCounterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCounterCell.swift; sourceTree = "<group>"; };
+		05DACC792B46E2EC00FB351F /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		05DACC7B2B46ECEF00FB351F /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		05DACC7D2B46F0E600FB351F /* ProgressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCell.swift; sourceTree = "<group>"; };
+		05DACC7F2B470B4000FB351F /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		05DACC812B470B6A00FB351F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		05DACC832B470BAF00FB351F /* StickerBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerBookViewController.swift; sourceTree = "<group>"; };
+		05DACC852B470BB500FB351F /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		05DACC882B470C2500FB351F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		05DACC8A2B470C4400FB351F /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		05EF05052B4713600090095E /* WholeBloodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeBloodCell.swift; sourceTree = "<group>"; };
+		05EF05072B471F5D0090095E /* IngredientBloodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientBloodCell.swift; sourceTree = "<group>"; };
+		05EF05092B472BAC0090095E /* BottomButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonCell.swift; sourceTree = "<group>"; };
+		05F611F22B473A86004B4E68 /* GuidelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidelineViewController.swift; sourceTree = "<group>"; };
+		05F611F42B474EE9004B4E68 /* CertificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationViewController.swift; sourceTree = "<group>"; };
+		2B125804B6B5A2F7F763B394 /* Pods-Sophie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sophie.debug.xcconfig"; path = "Target Support Files/Pods-Sophie/Pods-Sophie.debug.xcconfig"; sourceTree = "<group>"; };
+		5CBBA9AC008276B1A1EEFE13 /* Pods_Sophie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sophie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3ADC27142041C1E7491412B /* Pods-Sophie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sophie.release.xcconfig"; path = "Target Support Files/Pods-Sophie/Pods-Sophie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAF584C8C946AB8B14D466A /* Pods_Sophie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +91,8 @@
 			children = (
 				05DACC472B46C26A00FB351F /* Sophie */,
 				05DACC462B46C26A00FB351F /* Products */,
+				BFBFA152A179948017481105 /* Pods */,
+				FB8794D0C325AC0F18CC7A3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +155,16 @@
 		05DACC602B46C50F00FB351F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				05DACC812B470B6A00FB351F /* CustomTabBarController.swift */,
+				0555CEBF2B4757E7004D319D /* FirstOnboardingVC.swift */,
+				0555CEC12B475B5C004D319D /* SecondOnboardingVC.swift */,
+				05DACC632B46C56600FB351F /* MainViewController.swift */,
+				05F611F42B474EE9004B4E68 /* CertificationViewController.swift */,
+				05F611F22B473A86004B4E68 /* GuidelineViewController.swift */,
+				0555CEBD2B475630004D319D /* GiftViewController.swift */,
+				05DACC832B470BAF00FB351F /* StickerBookViewController.swift */,
+				05DACC852B470BB500FB351F /* MyPageViewController.swift */,
+				0555CEC52B475F89004D319D /* ProgressionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -109,6 +172,16 @@
 		05DACC612B46C51E00FB351F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				05DACC872B470C0600FB351F /* Extensions */,
+				05DACC6F2B46CCCF00FB351F /* RoundableButton.swift */,
+				0555CEC32B475C46004D319D /* SecondView.swift */,
+				05DACC652B46C57000FB351F /* MainView.swift */,
+				05DACC7B2B46ECEF00FB351F /* HeaderCell.swift */,
+				05DACC772B46DCE700FB351F /* DayCounterCell.swift */,
+				05DACC7D2B46F0E600FB351F /* ProgressCell.swift */,
+				05EF05072B471F5D0090095E /* IngredientBloodCell.swift */,
+				05EF05052B4713600090095E /* WholeBloodCell.swift */,
+				05EF05092B472BAC0090095E /* BottomButtonCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,8 +189,36 @@
 		05DACC622B46C52200FB351F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				05DACC7F2B470B4000FB351F /* Vibration.swift */,
+				05DACC792B46E2EC00FB351F /* MainModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		05DACC872B470C0600FB351F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05DACC882B470C2500FB351F /* UIView+Extensions.swift */,
+				05DACC8A2B470C4400FB351F /* UIStackView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BFBFA152A179948017481105 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B125804B6B5A2F7F763B394 /* Pods-Sophie.debug.xcconfig */,
+				F3ADC27142041C1E7491412B /* Pods-Sophie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB8794D0C325AC0F18CC7A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CBBA9AC008276B1A1EEFE13 /* Pods_Sophie.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,15 +228,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05DACC592B46C26C00FB351F /* Build configuration list for PBXNativeTarget "Sophie" */;
 			buildPhases = (
+				0B894F242AE0B2EA353A78FC /* [CP] Check Pods Manifest.lock */,
 				05DACC412B46C26A00FB351F /* Sources */,
 				05DACC422B46C26A00FB351F /* Frameworks */,
 				05DACC432B46C26A00FB351F /* Resources */,
+				F7DDFE616FA5E1DBBF4A05CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Sophie;
+			packageProductDependencies = (
+			);
 			productName = Sophie;
 			productReference = 05DACC452B46C26A00FB351F /* Sophie.app */;
 			productType = "com.apple.product-type.application";
@@ -164,6 +269,8 @@
 				Base,
 			);
 			mainGroup = 05DACC3C2B46C26A00FB351F;
+			packageReferences = (
+			);
 			productRefGroup = 05DACC462B46C26A00FB351F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -185,14 +292,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B894F242AE0B2EA353A78FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sophie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DDFE616FA5E1DBBF4A05CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sophie/Pods-Sophie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sophie/Pods-Sophie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sophie/Pods-Sophie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05DACC412B46C26A00FB351F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0555CEC02B4757E7004D319D /* FirstOnboardingVC.swift in Sources */,
+				05EF05062B4713600090095E /* WholeBloodCell.swift in Sources */,
 				05DACC4D2B46C26A00FB351F /* ViewController.swift in Sources */,
+				05DACC8B2B470C4400FB351F /* UIStackView+Extensions.swift in Sources */,
+				0555CEBE2B475630004D319D /* GiftViewController.swift in Sources */,
+				05EF050A2B472BAC0090095E /* BottomButtonCell.swift in Sources */,
 				05DACC492B46C26A00FB351F /* AppDelegate.swift in Sources */,
+				05F611F52B474EE9004B4E68 /* CertificationViewController.swift in Sources */,
+				0555CEC62B475F89004D319D /* ProgressionViewController.swift in Sources */,
+				05DACC842B470BAF00FB351F /* StickerBookViewController.swift in Sources */,
+				05F611F32B473A86004B4E68 /* GuidelineViewController.swift in Sources */,
+				0555CEC42B475C46004D319D /* SecondView.swift in Sources */,
+				05DACC822B470B6A00FB351F /* CustomTabBarController.swift in Sources */,
+				05DACC802B470B4100FB351F /* Vibration.swift in Sources */,
+				05EF05082B471F5D0090095E /* IngredientBloodCell.swift in Sources */,
+				0555CEC22B475B5C004D319D /* SecondOnboardingVC.swift in Sources */,
+				05DACC782B46DCE700FB351F /* DayCounterCell.swift in Sources */,
+				05DACC7C2B46ECEF00FB351F /* HeaderCell.swift in Sources */,
 				05DACC4B2B46C26A00FB351F /* SceneDelegate.swift in Sources */,
+				05DACC662B46C57000FB351F /* MainView.swift in Sources */,
+				05DACC862B470BB500FB351F /* MyPageViewController.swift in Sources */,
+				05DACC7A2B46E2EC00FB351F /* MainModel.swift in Sources */,
+				05DACC702B46CCCF00FB351F /* RoundableButton.swift in Sources */,
+				05DACC892B470C2500FB351F /* UIView+Extensions.swift in Sources */,
+				05DACC642B46C56600FB351F /* MainViewController.swift in Sources */,
+				05DACC7E2B46F0E600FB351F /* ProgressCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,17 +503,21 @@
 		};
 		05DACC5A2B46C26C00FB351F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B125804B6B5A2F7F763B394 /* Pods-Sophie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7WULLR98GP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sophie/Info.plist;
+				INFOPLIST_FILE = Sophie/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "소피";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -359,17 +535,21 @@
 		};
 		05DACC5B2B46C26C00FB351F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3ADC27142041C1E7491412B /* Pods-Sophie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7WULLR98GP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sophie/Info.plist;
+				INFOPLIST_FILE = Sophie/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "소피";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
